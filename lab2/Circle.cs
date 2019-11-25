@@ -14,7 +14,6 @@ namespace CircleNameSpace
         #region Constructor
         public Circle(int numberParties, int circleCenterX, int circleCenterY, double radius)
         {
-            //testing comment
             _point = new Points(circleCenterX, circleCenterY);
             _polygon = new Polygon();
             Radius = radius;
